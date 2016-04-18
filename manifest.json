@@ -1,0 +1,16 @@
+{
+  "name": "RG Antisuppression Reading Bars",
+  "description": "This extension will cover the browser window in red-green reading bars for antisuppression vision therapy.",
+  "version": "1.0",
+  "permissions": [
+    "tabs", "http://*/", "https://*/"],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": true
+  },
+  "browser_action": {
+    "default_title": "Reading Bars",
+    "default_icon" : "icon.png"
+  },
+  "manifest_version": 2
+}
