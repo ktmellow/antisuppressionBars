@@ -39,7 +39,6 @@ function barSetter() {
 }
 
 console.log('beginning of script')
-chrome.browserAction.onClicked.addListener(function(tab) {
   console.log('script being run')
   if(!!document.getElementById('barContainer')) {  
     barContainer = document.getElementById('barContainer');
@@ -49,4 +48,4 @@ chrome.browserAction.onClicked.addListener(function(tab) {
     barSetter();
     console.log('falsey')
   }
-});
+

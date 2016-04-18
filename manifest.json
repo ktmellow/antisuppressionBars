@@ -4,10 +4,7 @@
   "version": "1.0",
   "permissions": [
     "tabs", "http://*/", "https://*/"],
-  "background": {
-    "scripts": ["background.js"],
-    "persistent": true
-  },
+  "background_page": "background.html",
   "browser_action": {
     "default_title": "Reading Bars",
     "default_icon" : "icon.png"
