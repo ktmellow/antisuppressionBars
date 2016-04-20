@@ -1,6 +1,0 @@
-<script>
-chrome.browserAction.onClicked.addListener(function(tab) {
-alert(tab.id + ': ' + tab.url);
-chrome.tabs.executeScript(tab.id, {file: 'background.js'});
-});
-</script>
