@@ -1,6 +1,6 @@
 {
   "name": "Antisuppression Reading Bars",
-  "version": "0.0.2",
+  "version": "0.0.9",
   "manifest_version": 2,
   "description": "Produces red-green reading bars over browser window for antisuppression vision therapy supplement",
   "background": {
@@ -9,13 +9,24 @@
     ],
     "persistent": true
   },
+
   "browser_action": {
     "default_title": "toggle reading bars",
-    "default_icon": "icon.png"
+    "default_icon": "./images/icon.png"
   },
+
+  "options_ui": {
+      "page": "options.html"
+  },
+
+  "icons": {
+      "128": "./images/icon_128.png"
+  },
+
   "permissions": [
     "https://*/*",
     "http://*/*",
-    "tabs"
+    "tabs",
+    "storage"
   ]
 }
