@@ -1,22 +1,24 @@
-# Red-Green Antisuppression Reading Bars
+## Red-Green Antisuppression Reading Bars
 
-## Description
+### Description
 Produces red-green reading bars over browser window for antisuppression vision therapy supplement
 Created by Katie Low, Kristen Oda, and Carol Yu. 
 
-## Download Here
+### Download Here
 ```
 https://chrome.google.com/webstore/detail/antisuppression-reading-b/kebomdjipbhpnlhamgnckhlobfgnabhk
 ```
 
-## Website
+### Website
 ```
 http://antisuppression.netlify.com
 ```
 
+
+### How To Use:
+
 WARNING: Consult with optometrist or ophthalmologist before use. 
 
-## How To Use:
 1. Turn off any screen color filters or adjustments (if computer display settings are customized) .
 2. Put on medical grade red-green glasses.
 3. Open web browser and click the red-green stripe icon in the upper right.
