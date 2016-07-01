@@ -1,7 +1,7 @@
 ## Red-Green Antisuppression Reading Bars
 
 ### Description
-Produces red-green reading bars over browser window for antisuppression vision therapy supplement
+Produces red-green reading bars over browser window for antisuppression vision therapy supplement.
 Created by Katie Low, Kristen Oda, and Carol Yu. 
 
 ### Download Here
