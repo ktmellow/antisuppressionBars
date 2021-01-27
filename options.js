@@ -19,7 +19,6 @@ function save_options() {
 }
 
 // Restores default options
-// stored in chrome.storage.
 function restore_options() {
   var defaultWidth = '130'
   var defaultColor1 = '#A00000'
@@ -41,7 +40,8 @@ function restore_options() {
     }, 750);
   });
 }
-// Restores select box and checkbox state using the preferences
+
+// Initializes select box and checkbox state using the preferences
 // stored in chrome.storage.
 function get_options() {
   chrome.storage.sync.get([

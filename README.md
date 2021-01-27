@@ -23,4 +23,4 @@ WARNING: Consult with optometrist or ophthalmologist before use.
 2. Put on medical grade bichrome glasses.
 3. Open web browser and click the red-green stripe icon in the upper right.
 4. Peruse the web as normal with reading bars on screen. Follow instructions for reading bar antisuppression therapy, as provided by your vision therapy provider.
-* NOTE: some computers or monitors will have varying results. For best results, calibrate your computer's color display settings.
+5. Customizability: you may right click the extension to go to the options and save different bar widths and colors that best work for your glasses or reading exercise.
