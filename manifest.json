@@ -1,8 +1,8 @@
 {
   "name": "Antisuppression Reading Bars",
-  "version": "0.0.9",
+  "version": "0.1.1",
   "manifest_version": 2,
-  "description": "Produces red-green reading bars over browser window for antisuppression vision therapy supplement",
+  "description": "Produces customizable reading bars over browser window for antisuppression vision therapy supplement",
   "background": {
     "scripts": [
       "background.js"

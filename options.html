@@ -9,10 +9,26 @@
   </style>
 </head>
 <body>
-Input Bar Width (100-200):
-<input type="text" id="width"> px
-  <div id="status" style="color: green"></div>
-  <button id="save">Save</button>
+
+  <div>
+    <label for="width">Input Bar Width (100-200):</label>
+    <input type="text" id="width" /> px
+  </div>
+  <div>
+    <label for="width">Color 1 (default: red):</label>
+    <input type="color" id="color1" />
+  </div>
+  <div>
+    <label for="width">Color 2 (default: green) :</label>
+    <input type="color" id="color2" />
+  </div>
+
+  <div>
+    <button id="save">Save</button>
+    <button id="restore">Restore Defaults</button>
+    <div id="status" style="color: green"></div>
+  </div>
+
   <script src="options.js"></script>
 </body>
 </html>
