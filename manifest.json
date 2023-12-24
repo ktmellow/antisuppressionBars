@@ -1,31 +1,25 @@
 {
   "name": "Antisuppression Reading Bars",
-  "version": "0.1.2",
-  "manifest_version": 2,
+  "version": "0.1.3",
+  "manifest_version": 3,
   "description": "Produces customizable reading bars over browser window for antisuppression vision therapy supplement",
   "background": {
-    "scripts": [
-      "background.js"
-    ],
-    "persistent": true
+    "service_worker": "service_worker.js"
   },
-
-  "browser_action": {
+  "options_ui": {
+    "page": "options.html"
+  },
+  "icons": {
+    "128": "./images/icon_128.png"
+  },
+  "action": {
     "default_title": "toggle reading bars",
     "default_icon": "./images/icon.png"
   },
-
-  "options_ui": {
-      "page": "options.html"
+  "content_security_policy": {
+    "extension_pages": "default-src 'none'; style-src 'self'; media-src 'none'; child-src 'none'; connect-src 'none'; script-src 'self'; img-src 'self'; object-src 'none'"
   },
-
-  "icons": {
-      "128": "./images/icon_128.png"
-  },
-
-  "permissions": [
-    "https://*/*",
-    "http://*/*",
-    "storage"
-  ]
+  "offline_enabled": true,
+  "minimum_chrome_version": "103",
+  "permissions": ["activeTab", "storage", "scripting"]
 }

@@ -53,9 +53,6 @@
       if(!!document.getElementById('barContainer')) {  
         barContainer = document.getElementById('barContainer');
         document.body.removeChild(barContainer);
-      } else if (document.getElementById('barContainer') === false 
-        || document.getElementById('barContainer') === null) {
-        barSetter(width, color1, color2);
       } else {
         barSetter(width, color1, color2);
       }
